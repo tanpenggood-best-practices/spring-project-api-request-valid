@@ -6,8 +6,14 @@
 
 ## 主要功能
 
-- 使用Spring Validation进行请求参数校验
-- 自定义校验注解和校验器
+使用Spring Validation进行请求参数校验
+
+- 基础校验
+- 分组校验
+- 嵌套校验
+- 嵌套校验集合中的对象
+- 自定义校验注解
+- 自定义跨字段校验注解
 - 处理校验失败的全局异常
 
 ## 技术栈
@@ -28,7 +34,7 @@ spring-project-api-request-valid
 │  ├─valid3nested                  # 嵌套校验
 │  ├─valid4nestedcollection        # 嵌套校验集合中的对象
 │  ├─valid5custom                  # 自定义校验注解
-│  ├─valid6customcrossfield        # 自定义跨字段校验
+│  ├─valid6customcrossfield        # 自定义跨字段校验注解
 │  ├─GlobalExceptionHandler.java   # 全局异常处理
 │  └─Application.java              # 启动类
 └─README.md
